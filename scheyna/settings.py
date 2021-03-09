@@ -25,7 +25,7 @@ SECRET_KEY = '5*1ted%#xowamvcrhc-%kpq3tv0_)9%z2a&9r-((8yxg907l(@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['103.123.66.242', 'scheyna.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
