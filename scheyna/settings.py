@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'scheyna.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'scheyna',
-        'USER': 'admin',
-        'PASSWORD': 'SuperSecret',
-        'HOST': 'localhost',
-        'PORT': '', 
+        #'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        #'NAME': 'scheyna',
+        #'USER': 'admin',
+        #'PASSWORD': 'SuperSecret',
+        #'HOST': 'localhost',
+        #'PORT': '', 
     }
 }
 
