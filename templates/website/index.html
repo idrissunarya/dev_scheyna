@@ -1,0 +1,40 @@
+{% extends '../base.html' %}
+
+{% load static %}
+
+
+{% block title %}
+    Home
+{% endblock title %}
+
+
+{% block extra-stylesheets %}
+    <!-- My CSS-->
+    <link rel="stylesheet" type="text/css" href="{% static 'web/css/my_style.css' %}">
+
+{% endblock extra-stylesheets %}
+
+
+{% block body %}
+
+    {% block navbar %}
+        {% include 'website/partials/navbar.html' %}
+    {% endblock navbar %}
+
+    {% block header-slide %}
+        {% include 'website/partials/header-slide.html' %}
+    {% endblock header-slide %}
+
+    {% block note %}
+        {% include 'website/partials/note.html' %}
+    {% endblock note %}
+
+    {% block content-design %}
+        {% include 'website/partials/content-design.html' %}
+    {% endblock content-design %}
+
+    {% block gallery %}
+        {% include 'website/partials/gallery.html' %}
+    {% endblock %}
+
+{% endblock body %}

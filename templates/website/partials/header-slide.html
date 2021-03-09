@@ -1,0 +1,93 @@
+{% load static %}
+
+{% block extra-stylesheets %}
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+{% endblock extra-stylesheets %}
+
+<div class="jumbotron jumbotron-fluid header-slide">
+    <div class="row">
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item slider-img active">
+            <img src="{% static 'web/img/slider/slider-1.jpg' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block slider-text">
+
+              <div class="slider-title-box mb-4">
+                <h5 class="slider-title">
+                  Scheyna <br>
+                  <div class="title-small-one pb-2">
+                    <span class="title-one">Interior</span>
+                    <span class="title-two">Design</span>
+                  </div>
+                  
+                </h5>
+              </div>
+              <div class="slider-content-box">
+                <p class="slider-content py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, similique tempora inventore eos aliquam rerum. Vel eligendi quibusdam odit aperiam.</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="carousel-item slider-img">
+            <img src="{% static 'web/img/slider/slider-2.jpg' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block slider-text">
+
+              <div class="slider-title-box mb-4">
+                <h5 class="slider-title">
+                  Scheyna <br>
+                  <div class="title-small-one pb-2">
+                    <span class="title-one">Interior</span>
+                    <span class="title-two">Design</span>
+                  </div>
+                  
+                </h5>
+              </div>
+              <div class="slider-content-box">
+                <p class="slider-content py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, similique tempora inventore eos aliquam rerum. Vel eligendi quibusdam odit aperiam.</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="carousel-item slider-img">
+            <img src="{% static 'web/img/slider/slider-3.jpg' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block slider-text">
+
+              <div class="slider-title-box mb-4">
+                <h5 class="slider-title">
+                  Scheyna <br>
+                  <div class="title-small-one pb-2">
+                    <span class="title-one">Interior</span>
+                    <span class="title-two">Design</span>
+                  </div>
+                  
+                </h5>
+              </div>
+              <div class="slider-content-box">
+                <p class="slider-content py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, similique tempora inventore eos aliquam rerum. Vel eligendi quibusdam odit aperiam.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+</div>
+

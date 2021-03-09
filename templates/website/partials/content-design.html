@@ -1,0 +1,59 @@
+{% load static %}
+
+{% block extra-stylesheets %}
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+{% endblock extra-stylesheets %}
+
+
+    <div class="jumbotron jumbotron-fluid content-design">
+        <div class="row">
+            <div class="col-md img-design-room">
+                <img class="bg-design-room mt-3" src="{% static 'web/img/bg-design-room.svg' %}">
+                
+            </div>
+            <div class="col-md content-design-shadow">
+                <h3 class="content-design-title mt-5">
+                    Wujudkan ruangan sesuai impianmu
+                </h3>
+                <img class="bg-ballon" src="{% static 'web/img/ballon.svg' %}">
+
+                <button class="btn btn-outline-info btn-sm mt-3">Design Ruanganmu Sekarang</button>
+            </div>
+        </div>         
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <h3 class="keuntungan">Berbagai <span class="content-note-2">keuntungan</span> berbelanja di <span class="content-note-1">Scheyna</span></h3>
+            </div>
+        </div>
+
+        <div class="row mt-5 box-keuntungan py-3 pl-0 mb-5">
+            <div class="col-md-2">
+                <img class="icon_img mb-3 px-4 py-4" src="{% static 'web/img/icon_maintenance.png' %}"><br>
+                <p class="text-keuntungan px-4 py-2">Gratis pemasangan dan produksi terkontrol</p>
+            </div>
+            <div class="col-md-2">
+                <img class="icon_img mb-3 px-4 py-4" src="{% static 'web/img/certificate.png' %}"><br>
+                <p class="text-keuntungan px-4 py-2">Garansi 2 tahun</p>
+            </div>
+            <div class="col-md-2">
+                <img class="icon_img mb-3 px-4 py-4" src="{% static 'web/img/scale.png' %}"><br>
+                <p class="text-keuntungan px-4 py-2">Gratis survey dan pengukuran</p>
+            </div>
+            <div class="col-md-2">
+                <img class="icon_img mb-3 px-4 py-4" src="{% static 'web/img/credit-card.png' %}"><br>
+                <p class="text-keuntungan px-4 py-2">Banyak pilihan pembayaran</p>
+            </div>
+            <div class="col-md-2">
+                <img class="icon_img mb-3 px-4 py-4" src="{% static 'web/img/customer-service.png' %}"><br>
+                <p class="text-keuntungan px-4 py-2">Layanan CS dan free konsultasi</p>
+            </div>
+            <div class="col-md-2">
+                <img class="icon_img mb-3 px-4 py-4" src="{% static 'web/img/delivery-truck.png' %}"><br>
+                <p class="text-keuntungan px-4 py-2">Gratis biaya pengiriman</p>
+            </div>
+        </div>
+    </div>

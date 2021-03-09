@@ -1,0 +1,95 @@
+{% load static %}
+
+<section id="note">
+    <div class="container">
+        <div class="row">
+            <div class="col-md py-5">
+                <h1 class="title-note justify-content-center">Ide <span class="note-1">terbaik</span> untuk <span class="note-2">setiap</span> ruangan</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md">
+                <p class="content-note px-5 pb-5"> <span class="content-note-2">DAPATKAN</span> Ide terbaik untuk isi rumah. Ciptakan hal baik dalam mewujudkan rumah impianmu. Perencanaan dalam membuat kitchen set, ruang keluarga, kamar utama, kamar anak, lemari, serta membangun bisnis. Semua bisa kamu wujudkan bersama <span class="content-note-1">SCHEYNA</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron-fluid part-content my-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 part-big-box py-5">
+                    <div class="row">
+                        <div class="col-md">
+                            <h2 class="part-title justify-content-center">Material</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md part-description mt-3">
+                                <p>Scheyna Dalam setiap produksinya, kami selalu menggunakan bahan berkualitas. Sehingga ketahanan dan kualitas dari furniture impian kamu akan terus terjaga dan kuat tentunya.</p>
+                                <button type="button" class="btn btn-warning btn-sm float-right mr-5" data-toggle="modal" data-target="#detailMaterial">Baca Selanjutnya</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 part-img-right">
+                    <img class="img-part-right" src="{% static 'web/img/wood-material.png' %}">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-5 misi-box">
+            <div class="col-md">
+                <p class="misi px-5 py-3">
+                    <span class="content-note-1">SCHEYNA</span> selalu membuat perencanaan yang baik dan desain selalu berdasar dari keinginanmu agar rumah idamanmu dapat <span class="content-note-2">Terwujud</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Modal Detail Material -->
+    <div class="modal fade" id="detailMaterial" data-backdrop="static" data-keyboard="false" tabindex="-1"  aria-labelledby="detailMaterialLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Kayu Details</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                  <div class="col-md">
+                      <img class="img-inModal" src="{% static 'web/img/wood-material.png' %}">
+                  </div>
+                  <div class="col-md">
+                    <img class="img-inModal" src="{% static 'web/img/wood-material.png' %}">
+                </div>
+                <div class="col-md">
+                    <img class="img-inModal" src="{% static 'web/img/wood-material.png' %}">
+                </div>
+                <div class="col-md">
+                    <img class="img-inModal" src="{% static 'web/img/wood-material.png' %}">
+                </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-md">
+                      <p class="description-detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum iste, eligendi nobis quod accusamus optio!</p>
+                  </div>
+                  <div class="col-md">
+                    <p class="description-detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum iste, eligendi nobis quod accusamus optio!</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
